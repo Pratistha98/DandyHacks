@@ -1,0 +1,74 @@
+body{
+    background-color: #63CCFD;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+
+}
+.top{
+    width: 100%;
+}
+#logo{
+   height: 10%;
+   width: 10%;
+}
+#signup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#compiling{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #4683A4;
+}
+#signup_button{
+   background-color:  #FDE854;
+   border-radius: 10px;
+   border: none;
+   padding: 10px 65px;
+   box-shadow: 6px 6px 10p x rgb(247, 169, 133);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   color: #988A3A;
+   box-shadow: #818181;
+}
+#signup_button:hover{
+    transform: scale(1.1);
+}
+#signup_button:focus { 
+    outline: none; 
+  }
+#email_box{
+    background-color:  #FFFFFF;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+    padding: 10px 65px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #818181;
+    align-content: flex-start;
+}
+#email_box:focus { 
+    outline: none; 
+  }
+#footer{
+    position: absolute;
+    bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF
+}
