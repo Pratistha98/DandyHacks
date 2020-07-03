@@ -10,6 +10,11 @@ body{
 #logo{
    height: 10%;
    width: 10%;
+   padding: 10px;
+}
+#flower{
+    height:7%;
+    width:7%;
 }
 #signup{
     text-align: center;
@@ -17,10 +22,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 8px;
 }
 #compiling{
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -30,13 +35,12 @@ body{
    background-color:  #FDE854;
    border-radius: 10px;
    border: none;
-   padding: 10px 65px;
-   box-shadow: 6px 6px 10p x rgb(247, 169, 133);
+   padding: 10px 75px;
    font-style: normal;
    font-weight: bold;
    font-size: 14px;
    color: #988A3A;
-   box-shadow: #818181;
+   box-shadow: 0px 4px 0px #988A3A;
 }
 #signup_button:hover{
     transform: scale(1.1);
@@ -48,14 +52,14 @@ body{
     background-color:  #FFFFFF;
     border: 2px solid #F2F2F2;
     border-radius: 10px;
-    padding: 10px 65px;
+    padding: 10px 75px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     color: #818181;
-    align-content: flex-start;
 }
+
 #email_box:focus { 
     outline: none; 
   }
@@ -71,4 +75,31 @@ body{
     align-items: center;
 
     color: #FFFFFF
+}
+#heart{
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+input {
+    text-align: left;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: left;
+  }
+  
+  :-moz-placeholder {
+    text-align: left;
+  }
+  input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    text-align: right; 
+} 
+#linkedin{
+    padding: 0px 3px;
+}
+a{
+    text-decoration: none;
 }
