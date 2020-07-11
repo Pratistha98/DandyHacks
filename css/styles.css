@@ -1,8 +1,6 @@
 body{
     background-color: #63CCFD;
-    font-family: sans-serif;
-    letter-spacing: 1.3px;
-
+    font-family: 'Open Sans', sans-serif;
 }
 .top{
     width: 100%;
@@ -20,20 +18,22 @@ body{
     width:100px;
 }
 #signup{
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 8px;
     align-self: center;
 }
 #compiling{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 23px;
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: 1px;
     color: #4683A4;
+    margin-top: 1px;
 }
 #signup_button{
    background-color:  #FDE854;
@@ -73,14 +73,10 @@ body{
 #footer{
     position: absolute;
     bottom: 5px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
-    line-height: 19px;
+    font-weight: 500.3;
     display: flex;
     align-items: center;
-
     color: #FFFFFF
 }
 #heart{
@@ -111,12 +107,16 @@ a{
     text-decoration: none;
 }
 
-   
+#facebook{
+  width:9.5%;
+  height: 9.5%;
+  padding: 0px 4px;
+}
 @media(max-width: 900px) {
     #flower{
       height: 120px;
       width: 80px;
-      margin-top: 70px;
+      margin-top: 40px;
       }
       #logo{
         height: 70px;
